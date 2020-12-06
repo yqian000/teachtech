@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<style>
+		.button {
+			background-color: #4CAF50;
+			border: none;
+			color: white;
+			padding: 20px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			margin: 4px 2px;
+		}
+		.button1 {
+			background-color: #b3b3ff;
+			border-radius: 50%;
+		}
+		.container {  
+			height: 150px;
+  			position: relative;  
+		}
+		.center {
+			margin: 0;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			-ms-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
+		}
+		h1 {
+			text-align: center;
+			font-family: cursive;
+			font-size: 25px;
+			color:#0099e6;
+			margin-top: 30px;
+			margin-bottom: 30px;
+		}
+
+		textarea {
+			width: 50%;
+			height: 150px;
+			padding: 12px 20px;
+			box-sizing: border-box;
+			border: 2px solid #ccc;
+			border-radius: 10px;
+			background-color: #f8f8f8;
+			resize: none;
+			transform: translate(50%, 0%);
+		}
+	</style>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Story Game</title>
+	</head>
+<!-- import the webpage's javascript file -->
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+    <script src="/script.js" defer></script>
+  
+	<body style="background-color:#ccf2ff">
+		<h1> What do you see? Write what happens next... </h1>
+		<div class="container" style="height: 250px">
+		<div class="center">
+				<img id="icon2" alt="icon 2">
+			</div>
+		</div>
+		<div class="container">
+			<textarea id="story2" rows="5">Then...</textarea>
+		</div>
+		<div class="container">
+			<div class="center">
+				<button id="submit2" class="button button1">Ready? Next &raquo</button>
+			</div>
+		</div>
+    <p>
+      <a href="index.html">Take me back to the main TeachTech website :)</a>
+    </p>
+	</body>
+
+</html>
