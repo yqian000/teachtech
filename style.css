@@ -1,0 +1,149 @@
+header {
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+body {
+	font-family: Nunito Sans;
+	font-size: 16px;
+	line-height: 1.5;
+	
+	background-color: #ffffff;
+	color: #000000;
+	margin: 80px auto 48px auto;
+	width: 1120px;
+}
+
+a {
+  color:#000000;
+  text-decoration:none;
+  margin: 0 0 0 32px;
+  transition: color 0.3s;
+}
+
+a:hover, a.selected {
+  color:#ffdc00;
+ 
+}
+
+
+
+section {
+  margin: 80px 0 80px 0;
+  display:grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 32px 32px;
+  grid-auto-flow: dense;
+}
+
+section.about div.description {
+  grid-column: 7 / span 6;
+}
+
+section.about h1 {
+  margin: 0 0 0 0;
+  text-align: left;
+}
+
+section.about p {
+  margin: 16px 0 16px 0;
+}
+
+section.about div.photo {
+  grid-column: 1/ span 6;
+}
+
+section.contact div.form {
+   grid-column: 4 / span 6;
+}
+
+h1 {
+	font-size: 44px;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 35px;
+	font-weight: 700;
+}
+
+h3 {
+	font-size: 25px;
+	font-weight: 700;
+}
+
+input,
+textarea {
+  width: 100%;
+  background-color: rgb(255,255,255);
+  border: 2px solid #000000;
+  color: #000000;
+  padding: 8px 16px 8px 16px;
+}
+
+label {
+  display: block;
+  margin: 16px 0 16px 0;
+}
+
+textarea {
+  height: 320px;
+}
+
+button {
+  background-color: #ffdc00;
+  color: ;
+  border: none;
+  font-size: 24px;
+  font-family: "Josefin Sans";
+  padding: 8px 16px 8px 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+input:focus, textarea:focus {
+  border: 2px solid #FE8B9A;
+}
+
+#toc_container {
+    background: #ffdc00 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    font-size: 95%;
+    margin-bottom: 1em;
+    padding: 20px;
+    width: auto;
+}
+
+.toc_title {
+    font-weight: 700;
+    text-align: center;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+}
+
+#toc_container li, ul {
+padding: 5px 10px !important;
+}
+#toc_container a {
+color: rgb(0, 0, 0);
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer a {
+  margin 0 16px 0 16px;
+  
+}

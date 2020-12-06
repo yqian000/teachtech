@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<style>
+		.button {
+			background-color: #4CAF50;
+			border: none;
+			color: white;
+			padding: 20px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			margin: 4px 2px;
+		}
+		.button1 {
+			background-color: #b3b3ff;
+			border-radius: 50%;
+		}
+    .button2{
+			background-color: #0099e6;
+			color:white;
+			padding: 10px 24px;
+			border-radius: 12px;
+			position: absolute;
+			bottom:0;
+			left:0;
+		}
+		.container {  
+			height: 300px;
+  			position: relative;  
+		}
+		.center {
+			margin: 0;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			-ms-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
+		}
+		h1 {
+			text-align: center;
+			font-family: cursive;
+			color:#0099e6;
+		}
+	</style>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Story Game</title>
+	</head>
+  <!-- import the webpage's javascript file -->
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+    <script src="/script.js" defer></script>
+  
+	<body style="background-color:#ccf2ff">
+		<h1> Create Your Own Story </h1>
+		<div class="container">
+			<div class="center">
+					<img id="start" src="https://cdn.glitch.com/657c802a-cd26-4b29-aa9b-c73e5b811187%2Fbegin.png?v=1607230507813" alt="click here for a new story">
+			</div>
+		</div>
+    <p>
+      <button class="button button2" onclick="document.location='index.html'">Take me back to the main TeachTech :)</button>
+    </p>
+	</body>
+
+</html>
